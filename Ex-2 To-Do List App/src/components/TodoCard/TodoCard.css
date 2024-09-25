@@ -1,0 +1,52 @@
+.todo-card-wrap {
+  position: relative;
+  max-width: 35rem;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.todo-card {
+  max-height: 75vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-color: #fafafa;
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.todo-card__list {
+  list-style-type: none;
+}
+.todo-card__add-task-btn {
+  position: absolute;
+  border-radius: 5rem;
+  padding: 0.5rem 1.3rem;
+  bottom: -2.5rem;
+  left: 45%;
+  background-color: #ffa251;
+  transition: 0.1s ease-in-out;
+  &:hover {
+    background-color: #fd9d4a;
+    transform: scale(0.9);
+  }
+}
+.todo-card__add-task-icon {
+  font-size: 3rem;
+  color: #fff;
+}
+.todo-card__list-item {
+  margin-bottom: 0.85rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  text-transform: capitalize;
+  &:hover {
+    background-color: #e1c6fd;
+    transform: translateX(0.3rem);
+    box-shadow: rgba(145, 128, 155, 0.705) 0px 8px 24px;
+    scale: 1.01;
+  }
+}
+

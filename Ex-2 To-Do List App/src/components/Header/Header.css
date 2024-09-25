@@ -1,0 +1,21 @@
+header {
+  max-width: 35rem;
+  margin: 3rem auto 1rem;
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.header__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #9c71ca;
+}
+.header__logo {
+  width: 3rem;
+  object-fit: contain;
+}

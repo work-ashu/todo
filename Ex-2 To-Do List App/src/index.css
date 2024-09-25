@@ -1,0 +1,21 @@
+/* ---reset--- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/* ---style-body--- */
+body {
+  background: rgb(254, 192, 193);
+  background: radial-gradient(
+    circle,
+    rgba(254, 192, 193, 1) 0%,
+    rgba(156, 113, 202, 1) 100%
+  );
+  font-family: "Roboto", system-ui;
+}

@@ -1,0 +1,37 @@
+.modal {
+  min-width: 35rem;
+  position: absolute;
+  top: 25%;
+  left: 33.5%;
+  padding: 2rem;
+  background-color: #fafafa;
+  border: none;
+  border-radius: 0.5rem;
+}
+.modal-form {
+  max-width: 30rem;
+}
+.model-form__label {
+  color: #9c71ca;
+  font-weight: bolder;
+}
+.model-form__input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.modal-form__actions {
+  text-align: right;
+}
+.modal-form__btn {
+  padding: 0.75rem 1rem;
+  margin-left: 0.75rem;
+  background-color: #ffa251;
+  border-radius: 0.5rem;
+  &:hover {
+    background-color: #fa8218;
+  }
+}
+dialog:-internal-dialog-in-top-layer::backdrop {
+  background: rgba(0, 0, 0, 0.74);
+}

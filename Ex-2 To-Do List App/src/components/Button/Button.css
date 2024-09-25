@@ -1,0 +1,23 @@
+.todo-card__list-item-btn {
+    background-color: transparent;
+    align-self: end;
+    padding: 0.5rem;
+    transition: 0.2s ease-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .todo-card__list-item-btn i {
+    font-size: 1rem;
+  }
+  .todo-card__list-item__action {
+    margin-left: auto;
+  }
+  .todo-card__list-item__task,
+  .todo-card__list-item__action {
+    display: flex;
+    gap: 1rem;
+  }
+  .fallback-text {
+    text-align: center;
+  }
